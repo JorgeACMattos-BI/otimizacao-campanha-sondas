@@ -1,7 +1,7 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 # Nome do projeto
 
-#### Aluno: [Nome](https://github.com/link_do_github)
+#### Aluno: [Jorge Antonio da Costa Mattos](https://github.com/JorgeACMattos-BI/bi-master-final-project))
 #### Orientadora: [Nome Sobrenome](https://github.com/link_do_github).
 #### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
@@ -62,7 +62,7 @@ Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis
 
 ---
 
-Matrícula: 123.456.789
+Matrícula: 222.100.473
 
 Pontifícia Universidade Católica do Rio de Janeiro
 
