@@ -22,43 +22,54 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ### Resumo
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+Este projeto visa desenvolver um modelo de otimização para a alocação de sondas offshore em poços exploratórios no Brasil. Utilizando dados simulados e ferramentas de programação linear inteira em Python, o modelo busca minimizar custos operacionais e maximizar a eficiência das campanhas.
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
-
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+This project aims to develop an optimization model for the allocation of offshore rigs in exploratory wells in Brazil. Using simulated data and integer linear programming tools in Python, the model aims to minimize operational costs and maximize campaign efficiency.
 
 ### 1. Introdução
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+A contratação de sondas offshore representa uma parte significativa dos custos das campanhas exploratórias no setor de óleo e gás. Este trabalho propõe um modelo de otimização para apoiar a tomada de decisão, considerando variáveis técnicas, ambientais e financeiras, com foco em poços exploratórios no Brasil.
 
 ### 2. Modelagem
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+O modelo foi desenvolvido em Python, utilizando a biblioteca PuLP para a modelagem de programação linear inteira. Os dados de entrada incluem características técnicas das sondas e poços, além de parâmetros de custo e restrições operacionais. O modelo visa:
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+- Minimizar o custo total de operação das sondas.
+- Garantir que cada poço seja atendido por uma sonda compatível.
+- Considerar setups, janelas de parada e outros parâmetros logísticos.
+
+Dados
+Os dados utilizados no projeto são simulados, com base em estruturas públicas da ANP e conhecimento técnico da operação. Eles incluem:
+
+- sondas.csv: Dados técnicos das sondas (tipo, profundidade máxima, capacidade, BOP, etc.).
+- pocos.csv: Dados técnicos dos poços (profundidade, ambiente, janela de perfuração, etc.).
+- matriz_compatibilidade.csv: Matriz binária de viabilidade entre sondas e poços.
+- custos_parametros.csv: Parâmetros de custos operacionais e setups.
+
+Tecnologias Utilizadas
+- Python 3.x
+- Pandas: manipulação e análise dos dados.
+- PuLP: modelagem de programação linear inteira.
+- Plotly / Matplotlib: visualização de resultados (Gantt e dashboards).
+- Jupyter Notebook: desenvolvimento e documentação do modelo.
+- GitHub: versionamento e entrega final.
 
 ### 3. Resultados
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+Este projeto espera gerar resultados que demonstrem:
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+- A alocação ótima das sondas para cada poço, minimizando custos operacionais e respeitando todas as restrições técnicas.
+- Um cronograma claro e visualmente intuitivo (Gantt) para cada campanha de perfuração, facilitando o entendimento operacional.
+- Indicadores de eficiência, como utilização das sondas, custos totais e distribuição das janelas de operação.
+- A viabilidade e robustez do modelo para futuras expansões ou integração em sistemas corporativos.
 
 ### 4. Conclusões
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+A proposta apresentada alia conceitos acadêmicos de otimização com desafios reais do setor de óleo e gás. Mesmo com dados simulados, a modelagem e os outputs permitem entender a aplicabilidade de soluções de ciência de dados e programação linear inteira para auxílio na tomada de decisões estratégicas para contratação de sondas offshore.
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+O trabalho reforça a importância de projetos que conectam teoria e prática, mostrando como ferramentas de dados podem apoiar a redução de custos e a maximização da eficiência em soluções de alta complexidade.
 
 ---
 
