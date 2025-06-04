@@ -40,7 +40,6 @@ O modelo foi desenvolvido em Python, utilizando a biblioteca PuLP para a modelag
 - Garantir que cada poço seja atendido por uma sonda compatível.
 - Considerar setups, janelas de parada e outros parâmetros logísticos.
 
-Dados
 Os dados utilizados no projeto são simulados, com base em estruturas públicas da ANP e conhecimento técnico da operação. Eles incluem:
 
 - sondas.csv: Dados técnicos das sondas (tipo, profundidade máxima, capacidade, BOP, etc.).
