@@ -2,8 +2,7 @@
 # Nome do projeto
 
 #### Aluno: [Jorge Antonio da Costa Mattos](https://github.com/JorgeACMattos-BI/bi-master-final-project)
-#### Orientadora: [Nome Sobrenome](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
+#### Orientadora: Professora Manoela Kohler
 
 ---
 
@@ -54,9 +53,16 @@ Tecnologias Utilizadas
 - Jupyter Notebook: desenvolvimento e documentação do modelo.
 - GitHub: versionamento e entrega final.
 
-### 3. Resultados
 
-Este projeto visa gerar resultados que demonstrem:
+### 3. Como executar
+
+- Coloque os arquivos pocos.csv e sondas.csv na raiz do projeto.
+- Execute o notebook: otimizacao_campanha_sondas.ipynb
+
+
+### 4. Resultados
+
+Este projeto gera resultados que demonstram:
 
 - A alocação ótima das sondas para cada poço, minimizando os custos operacionais e respeitando todas as restrições técnicas.
 - Um cronograma claro e visualmente intuitivo (Gantt). com cores por tipo de sonda, para cada campanha de perfuração, facilitando o entendimento operacional.
@@ -64,7 +70,7 @@ Este projeto visa gerar resultados que demonstrem:
 - A viabilidade e robustez do modelo para futuras expansões ou integração em sistemas corporativos.
 - Relatório em PDF com todas as informações resumidas.
 
-### 4. Conclusões
+### 5. Conclusões
 
 A proposta apresentada alia conceitos acadêmicos de otimização com desafios reais do setor de óleo e gás. Mesmo com dados simulados, a modelagem e os outputs permitem entender a aplicabilidade de soluções de ciência de dados e programação linear inteira para auxílio na tomada de decisões estratégicas para contratação de sondas offshore.
 
