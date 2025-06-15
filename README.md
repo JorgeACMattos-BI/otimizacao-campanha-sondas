@@ -58,10 +58,11 @@ Tecnologias Utilizadas
 
 Este projeto visa gerar resultados que demonstrem:
 
-- A alocação ótima das sondas para cada poço, minimizando custos operacionais e respeitando todas as restrições técnicas.
-- Um cronograma claro e visualmente intuitivo (Gantt) para cada campanha de perfuração, facilitando o entendimento operacional.
-- Indicadores de eficiência, como utilização das sondas, custos totais e distribuição das janelas de operação.
+- A alocação ótima das sondas para cada poço, minimizando os custos operacionais e respeitando todas as restrições técnicas.
+- Um cronograma claro e visualmente intuitivo (Gantt). com cores por tipo de sonda, para cada campanha de perfuração, facilitando o entendimento operacional.
+- Indicadores de eficiência, como utilização das sondas, custos totais e distribuição das janelas de operação demonstrados em uma tabela de cronograma.
 - A viabilidade e robustez do modelo para futuras expansões ou integração em sistemas corporativos.
+- Relatório em PDF com todas as informações resumidas.
 
 ### 4. Conclusões
 
