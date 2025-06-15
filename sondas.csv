@@ -1,0 +1,16 @@
+Sonda,Tipo,Profundidade Máxima (m),BOP (PSI Máx.),Capacidade Logística,Custo Operação (USD/dia),Tempo de Setup (dias),Dias de Operação Contínua,Dias de Parada Programada
+Sonda-1,Drillship,1600,10500,Média,455000,2,60,3
+Sonda-2,Semi,1700,11000,Média,460000,2,60,3
+Sonda-3,Drillship,1800,11500,Alta,465000,2,60,3
+Sonda-4,Semi,1900,12000,Média,470000,2,60,3
+Sonda-5,Drillship,2000,12500,Média,475000,2,60,3
+Sonda-6,Semi,2100,13000,Alta,480000,2,60,3
+Sonda-7,Drillship,2200,13500,Média,485000,2,60,3
+Sonda-8,Semi,2300,14000,Média,490000,2,60,3
+Sonda-9,Drillship,2400,14500,Alta,495000,2,60,3
+Sonda-10,Semi,2500,15000,Média,500000,2,60,3
+Sonda-11,Drillship,2600,15500,Média,505000,2,60,3
+Sonda-12,Semi,2700,16000,Alta,510000,2,60,3
+Sonda-13,Drillship,2800,16500,Média,515000,2,60,3
+Sonda-14,Semi,2900,17000,Média,520000,2,60,3
+Sonda-15,Drillship,3000,17500,Alta,525000,2,60,3
