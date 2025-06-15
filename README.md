@@ -44,8 +44,7 @@ Os dados utilizados no projeto são simulados, com base em estruturas públicas 
 
 - sondas.csv: Dados técnicos das sondas (tipo, profundidade máxima, capacidade, BOP, etc.).
 - pocos.csv: Dados técnicos dos poços (profundidade, ambiente, janela de perfuração, etc.).
-- matriz_compatibilidade.csv: Matriz binária de viabilidade entre sondas e poços.
-- custos_parametros.csv: Parâmetros de custos operacionais e setups.
+- relatorio_final.pdf: relatório com resultado da otimização da campanha, com alocação dos poços em gráfico e tabela com valores calculados e custo total da campanha.
 
 Tecnologias Utilizadas
 - Python 3.x
@@ -57,7 +56,7 @@ Tecnologias Utilizadas
 
 ### 3. Resultados
 
-Este projeto espera gerar resultados que demonstrem:
+Este projeto visa gerar resultados que demonstrem:
 
 - A alocação ótima das sondas para cada poço, minimizando custos operacionais e respeitando todas as restrições técnicas.
 - Um cronograma claro e visualmente intuitivo (Gantt) para cada campanha de perfuração, facilitando o entendimento operacional.
