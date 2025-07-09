@@ -1,5 +1,5 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Nome do projeto
+# Otimização de alocações de sondas offshore em poços exploratórios no Brasil
 
 #### Aluno: [Jorge Antonio da Costa Mattos](https://github.com/JorgeACMattos-BI/bi-master-final-project)
 #### Orientadora: Professora Manoela Kohler
